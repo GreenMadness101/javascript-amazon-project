@@ -1,3 +1,7 @@
+//using modules - prevents naming conflicts + loading order doesn't matter
+import {cart} from '../data/cart.js';
+
+
 let productsHTML = '';
 
 products.forEach((product) => {
